@@ -18,7 +18,7 @@ nav{
     font-size: 65px;
     color:#252432;
     max-width: 905px;
-    padding:20px 267px;
+    padding:20px 167px;
     font-family: raleway;
     
 }
@@ -34,6 +34,7 @@ nav{
     border-radius: 10px;
     border:none;
     margin-bottom: 70px;
+
 }
 
 .bg-image{
@@ -179,6 +180,17 @@ nav{
     ul li a{
         text-decoration: none;
         color:#8987A1;
-      
-  
-    }
+}
+
+/*....Challenge part....[hover effect].....*/
+
+.new-btn:hover{
+    background-color:rgb(210, 128, 229);
+    color:rgb(212, 234, 11);
+}
+
+.new-btn-on:hover{
+    background-color: darkgoldenrod;
+    color: green;
+    
+}
