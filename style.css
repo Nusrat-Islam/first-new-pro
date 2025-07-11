@@ -39,3 +39,34 @@ nav{
     background-image: url(./Images/Hero-bg.png);
     background-repeat: no-repeat;
 }
+
+ /*.......Action section style.......*/
+
+ .action{
+    display: flex;
+    justify-content: space-between;
+    padding:116px;
+  }
+
+ .title{
+    font-size:42px;
+    color:#252432;
+    margin-bottom: 10px;
+ }
+ .sub-title{
+    font-size: regular;
+    color:#252432;
+    
+
+ }
+
+.preview{
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.mini-img{
+    margin:0 auto;
+    border-radius: 48px;
+
+}
