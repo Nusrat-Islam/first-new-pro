@@ -41,11 +41,14 @@ nav{
 }
 
  /*.......Action section style.......*/
-
+ main{
+    max-width: 1140px;
+    margin:0 auto;
+}
  .action{
     display: flex;
     justify-content: space-between;
-    padding:116px;
+   padding:116px;
   }
 
  .title{
@@ -56,17 +59,30 @@ nav{
  .sub-title{
     font-size: regular;
     color:#252432;
+    max-width: 300px;
     
 
  }
 
-.preview{
-    margin: 0 auto;
-    max-width: 300px;
-}
 
 .mini-img{
-    margin:0 auto;
     border-radius: 48px;
+
+}
+
+/* Productive part */
+
+
+.productive{
+    background-color:#cbcaed;
+    margin   :0px 100px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.middle-part{
+    font-size: 38px;
+    color: #252432;
+    padding-top:12px
 
 }
