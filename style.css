@@ -100,3 +100,44 @@ nav{
     display:flex;
     justify-content: space-around;
  }
+
+ /*.....footer part one.....*/
+
+ .touch-btn{
+    display: flex;
+    padding:92px  150px 0px ; 
+    gap: 205px;
+    
+ }
+
+ .footer-part-one{
+ background-color: #D6DDED;
+ }
+
+ .title-two{
+    font-size: 70px;
+    color:#000000;
+    max-width: 400px;
+
+ }
+
+ .form-part [type="email"], .form-part [type="text"] , .form-part textarea
+  {   height:60px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    
+ }
+
+ .new-btn-on{
+    background-color: #4E47FF;
+    padding:24px 95px;
+    width:100%;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border:none;
+ }
